@@ -34,7 +34,7 @@ def ALMAsim(imageloc,imgsize,perpixelres,obsfreq,inwid,config,delfiles):
     #obsfreq (float) = observed frame frequency of observation in Ghz
     #inwid (float) =  bandwidth of observation in Ghz
     #config (integer) = ALMA configuration from Cycle 10 (1-10). Change the hardcoded 10 to revert to previous cycles
-    #delfiles (boolean) = Keep to True delete the CASA files created to simulate ALMA and only retain the final fits (just saves data)
+    #delfiles (boolean) = Keep True to delete the CASA files created to simulate ALMA and only retain the final fits (just saves data)
 
     preinducingnoise(imageloc,imgsize)
 
